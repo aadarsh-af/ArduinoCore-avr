@@ -99,7 +99,7 @@
 			static inline uint8_t LEDs_GetLEDs(void)
 			{
 				return (PORTD & LEDS_ALL_LEDS);
-			}
+			} @@
 		#endif
 
 	/* Disable C linkage for C++ Compilers: */
